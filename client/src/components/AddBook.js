@@ -35,15 +35,15 @@ export default function AddBook(){
             <div className='field1'>
             <div className='field'>
                 <label>Book Name</label>
-                <input id="bookName" type="text" onChange={(e)=>setName(e.target.value)}/>
+                <input id="bookName" type="text" required onChange={(e)=>setName(e.target.value)}/>
             </div>
             <div className='field'>
                 <label>Genre</label>
-                <input id="genre" type="text" onChange={(e)=>setGenre(e.target.value)}/>
+                <input id="genre" type="text" required onChange={(e)=>setGenre(e.target.value)}/>
             </div>
             <div className='field'>
                 <label>Author</label>
-                <select defaultValue="loading" id="author" onChange={(e)=>setAuthorId(e.target.value)}>
+                <select defaultValue="loading" id="author" required onChange={(e)=>setAuthorId(e.target.value)}>
                     <option disabled>Select Author</option>
                     {displayAuthor}
                 </select>
