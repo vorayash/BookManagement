@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployed on Heroku
+https://bookslibrary-yashvora.herokuapp.com
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -16,3 +19,12 @@ You may also see any lint errors in the console.
 
 ## Used Package
 Apollo v2
+
+## Used Tools and Technologies
+React for frontend
+MongoDB for database
+Node for Backend
+Express for routes
+Graphql in Backend
+Apollo in frontend
+Deployed on Heroku
