@@ -4,12 +4,16 @@ const { default: mongoose } = require("mongoose");
 const schema = require('./schema/schema');
 const app = express();
 const cors = require('cors')
+
+// Reaading environment variables
+const dotenv = require('dotenv');
+dotenv.config();
 const port = process.env.PORT|| 4000
 
 // allow cross-origin request
 app.use(cors());
 
-mongoose.connect("mongodb+srv://vorayash9028:Yash12345@cluster0.02yavlp.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect(process.env.MONGODB_URL);
 mongoose.connection.once('open',()=>{
         console.log("connected successfully to mongo");
 })
