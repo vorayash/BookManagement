@@ -27,4 +27,4 @@ Node for Backend\
 Express for routes\
 Graphql in Backend\
 Apollo in frontend\
-Deployed on Heroku\
+Deployed on Heroku
