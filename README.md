@@ -21,10 +21,10 @@ You may also see any lint errors in the console.
 Apollo v2
 
 ## Used Tools and Technologies
-React for frontend
-MongoDB for database
-Node for Backend
-Express for routes
-Graphql in Backend
-Apollo in frontend
-Deployed on Heroku
+React for frontend\
+MongoDB for database\
+Node for Backend\
+Express for routes\
+Graphql in Backend\
+Apollo in frontend\
+Deployed on Heroku\
